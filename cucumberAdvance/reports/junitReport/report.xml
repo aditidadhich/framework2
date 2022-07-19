@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.448">
+    <testcase classname="feature to test the functionality of google" name="Check the google search" time="0.105">
+        <failure message="Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null" type="java.lang.NullPointerException"><![CDATA[Given user is on google page................................................failed
+When user enters capgemini..................................................skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
+	at AssignmentGlueCode.AssignmentCode.user_is_on_google_page(AssignmentCode.java:26)
+	at ✽.user is on google page(file:///C:/Users/ADIDADHI/eclipse-workspace/JavaBrushUp/cucumberAdvance/src/test/resources/Features/Assignment.feature:5)
+]]></failure>
+    </testcase>
+    <testcase classname="feature to test the functionality of google" name="Check the google search 2" time="0.001">
+        <failure message="Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null" type="java.lang.NullPointerException"><![CDATA[Given user is on google page................................................failed
+When user enters accenture..................................................skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
+	at AssignmentGlueCode.AssignmentCode.user_is_on_google_page(AssignmentCode.java:26)
+	at ✽.user is on google page(file:///C:/Users/ADIDADHI/eclipse-workspace/JavaBrushUp/cucumberAdvance/src/test/resources/Features/Assignment.feature:5)
+]]></failure>
+    </testcase>
+</testsuite>
