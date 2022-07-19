@@ -20,6 +20,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class AssignmentCode {
 
 	WebDriver driver = null;
+	
 
 	@Before(value = "@capgemini", order = 1)
 	public void setup() {
